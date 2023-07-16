@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.baiju.learnjavatutorial">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Mocktest_1"></activity>
+        <activity android:name=".ElevenActivity" />
+        <activity android:name=".TenActivity" />
+        <activity android:name=".NineActivity" />
+        <activity android:name=".EightActivity" />
+        <activity android:name=".SevenActivity" />
+        <activity android:name=".SixActivity" />
+        <activity android:name=".FiveActivity" />
+        <activity android:name=".FourActivity" />
+        <activity android:name=".ThreeActivity" />
+        <activity android:name=".TwoActivity" />
+        <activity android:name=".OneActivity" />
+        <activity android:name=".Mock_Test" />
+        <activity android:name=".JavaTopics" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-7358222990708386~5796815374"/>
+
+    </application>
+
+</manifest>

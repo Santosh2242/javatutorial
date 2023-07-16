@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".JavaTopics">
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adViews"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="ca-app-pub-3594818897728991/5366918033">
+    </com.google.android.gms.ads.AdView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/one"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Java Introduction"
+                android:textSize="18sp"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/rounded_btn"
+                android:padding="5dp"
+                android:layout_margin="5dp"/>
+
+            <Button
+                android:id="@+id/two"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Introduction to data types"
+                android:textSize="18sp"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/rounded_btn"
+                android:padding="5dp"
+                android:layout_margin="5dp"/>
+
+            <Button
+                android:id="@+id/three"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Introduction to Operator"
+                android:textSize="18sp"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/rounded_btn"
+                android:padding="5dp"
+                android:layout_margin="5dp"/>
+
+            <Button
+                android:id="@+id/four"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Java Control Statements"
+                android:textSize="18sp"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/rounded_btn"
+                android:padding="5dp"
+                android:layout_margin="5dp"/>
+            <Button
+                android:id="@+id/five"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Array and String in Java"
+                android:textSize="18sp"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/rounded_btn"
+                android:padding="5dp"
+                android:layout_margin="5dp"/>
+
+            <com.google.android.gms.ads.AdView
+                xmlns:ads="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/adView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                ads:adSize="LARGE_BANNER"
+                ads:adUnitId="ca-app-pub-3594818897728991/5750061418">
+            </com.google.android.gms.ads.AdView>
+
+
+            <Button
+                android:id="@+id/six"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Java Exception Handling"
+                android:textSize="18sp"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/rounded_btn"
+                android:padding="5dp"
+                android:layout_margin="5dp"/>
+
+            <Button
+                android:id="@+id/seven"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Java Classes and Objects"
+                android:textSize="18sp"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/rounded_btn"
+                android:padding="5dp"
+                android:layout_margin="5dp"/>
+            <Button
+                android:id="@+id/eight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Java Inheritance"
+                android:textSize="18sp"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/rounded_btn"
+                android:padding="5dp"
+                android:layout_margin="5dp"/>
+
+            <Button
+                android:id="@+id/nine"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Java Polymorphism"
+                android:textSize="18sp"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/rounded_btn"
+                android:padding="5dp"
+                android:layout_margin="5dp"/>
+
+            <Button
+                android:id="@+id/ten"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Java Encapsulation and  Interfaces"
+                android:textSize="18sp"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/rounded_btn"
+                android:padding="5dp"
+                android:layout_margin="5dp"/>
+            <Button
+                android:id="@+id/eleven"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Enumeration and Multithreading"
+                android:textSize="18sp"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/rounded_btn"
+                android:padding="5dp"
+                android:layout_margin="5dp"/>
+
+
+            <com.google.android.gms.ads.AdView
+                xmlns:ads="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/adViewd"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                ads:adSize="SMART_BANNER"
+                ads:adUnitId="ca-app-pub-3594818897728991/4768152234">
+            </com.google.android.gms.ads.AdView>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+</LinearLayout>

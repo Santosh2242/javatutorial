@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".EightActivity">
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:padding="10dp"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-7358222990708386/6585237145">
+    </com.google.android.gms.ads.AdView>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Introduction of Inheritance:-"
+                android:textSize="28sp"
+                android:textStyle="bold"
+                android:padding="10dp"
+                android:textColor="@color/textColor_1"/>
+
+            <TextView
+                android:padding="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="22sp"
+                android:text="@string/Inheritance"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Types of Inheritance:-"
+                android:textSize="28sp"
+                android:textStyle="bold"
+                android:padding="10dp"
+                android:textColor="#677800"/>
+
+            <TextView
+                android:padding="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="22sp"
+                android:text="@string/Types_of_inheritance"/>
+
+            <com.google.android.gms.ads.AdView
+                xmlns:ads="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/adViews"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                android:padding="10dp"
+                ads:adSize="LARGE_BANNER"
+                ads:adUnitId="ca-app-pub-9181921643380825/4455819717">
+            </com.google.android.gms.ads.AdView>
+
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Single Inheritance:-"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:textColor="#aa0000"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView_2"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/inheritance"/>
+
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MultiLevel Inheritance:-"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:textColor="#aa0000"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView_3"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/multilevelpng"/>
+
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hierarchical Inheritance:-"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:textColor="#aa0000"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView_4"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/hier"/>
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

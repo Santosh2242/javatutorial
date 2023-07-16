@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FourActivity">
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:padding="10dp"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-7358222990708386/5321817435">
+    </com.google.android.gms.ads.AdView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Java Control Statements"
+                android:textSize="28sp"
+                android:textStyle="bold"
+                android:padding="10dp"
+                android:textColor="@color/textColor_1"/>
+
+            <TextView
+                android:padding="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="22sp"
+                android:text="@string/condition"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Conditional operator"
+                android:textSize="28sp"
+                android:textStyle="bold"
+                android:padding="10dp"
+                android:textColor="@color/textColor_1"/>
+
+            <com.google.android.gms.ads.AdView
+                xmlns:ads="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/adViews"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                android:padding="10dp"
+                ads:adSize="LARGE_BANNER"
+                ads:adUnitId="ca-app-pub-7358222990708386/8352780236">
+            </com.google.android.gms.ads.AdView>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="if Statement:-"
+                android:textSize="28sp"
+                android:textStyle="bold"
+                android:padding="10dp"
+                android:textColor="#aa0000"/>
+
+            <TextView
+                android:padding="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="22sp"
+                android:text="@string/if_statement"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView_1"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/ifs"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="if-else Statement:-"
+                android:textSize="28sp"
+                android:textStyle="bold"
+                android:padding="10dp"
+                android:textColor="#aa0000"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView_2"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/ifselse"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Switch Statement:-"
+                android:textSize="28sp"
+                android:textStyle="bold"
+                android:padding="10dp"
+                android:textColor="#aa0000"/>
+
+            <TextView
+                android:padding="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="22sp"
+                android:text="@string/switchStatement"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Loops Statement:-"
+                android:textSize="28sp"
+                android:textStyle="bold"
+                android:padding="10dp"
+                android:textColor="#aa0000"/>
+
+            <TextView
+                android:padding="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="22sp"
+                android:text="@string/loops"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="While loop:-"
+                android:textSize="28sp"
+                android:textStyle="bold"
+                android:padding="10dp"
+                android:textColor="#aa0000"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView_3"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/whiles"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="do-While loop:-"
+                android:textSize="28sp"
+                android:textStyle="bold"
+                android:padding="10dp"
+                android:textColor="#aa0000"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView_4"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/dowhiles"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="For loop:-"
+                android:textSize="28sp"
+                android:textStyle="bold"
+                android:padding="10dp"
+                android:textColor="#aa0000"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView_5"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/fors"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
